@@ -1,0 +1,167 @@
+/*colors
+BG COLOR - #191919
+DARK - #101010
+GREEN - #058240
+YELLOW - #fcce20
+WHITE - #ffffff
+*/
+
+* {
+	box-sizing: border-box;
+	margin:0;
+	scroll-behavior:smooth;
+    padding: 0;
+}
+body{
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-color: #191919;
+}
+/*---------------------------------------------------------------------------------- NAV BAR SECTION ----------------------------*/
+.navbar{
+    background-color: #191919;
+    position: relative;
+}
+.navbar-container{
+    background-color: #191919;
+    text-align: center;
+    position: relative;
+}
+.navbar-logo{
+	display: inline-block;
+	transition: 0.1s ease;
+    position: relative;
+}
+/*---------------------------------------------------------------------------------- LOGO SECTION ----------------------------*/
+.navbar-links{
+    margin-top: 2%;
+}
+ul.navbar-links li {
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+}
+.navtext{
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+}
+.home{
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: serif;
+    color: #fcce20;
+    font-size: 20px;
+}
+.home:hover{
+    border: 2px solid #fcce20;
+    border-radius: 10px;
+}
+.navtext:hover{
+    color: #fcce20;
+}
+/*---------------------------------------------------------------------------------- HEADING SECTION ----------------------------*/
+.heading{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.heading-container{
+    margin-left: 20%;
+    margin-top: 8%;
+}
+.headerlink{
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    margin-left: 45%;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+.heading-content{
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+}
+.zero{
+    font-size: 70px;
+    background: -webkit-linear-gradient( #fcce20, #058240);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1%;
+}
+
+.headerlink:hover{
+    font-size: 61px;
+    border: 2px solid #fcce20;
+}
+/*---------------------------------------------------------------------------------- MAIN CONTENT SECTION -----------------------*/
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    width: 100%;
+}
+.title{
+    background-color: #101010;
+    color: #fcce20;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.intro{
+    padding: 10px;
+}
+.intro-container{
+    padding: 50px;
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+.list{
+    padding: 50px;
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+/*---------------------------------------------------------------------------------- FOOTER SECTION ----------------------------*/
+.footer{
+    background-color: #101010;
+    position: relative;
+}
+.footer-container{
+    background-color: #101010;
+    text-align: center;
+    position: relative;
+}
+.footer-content{
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 3px;
+}
